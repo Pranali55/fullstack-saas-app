@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 40px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.dashboard {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.task {
+  background: rgba(255,255,255,0.08);
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
